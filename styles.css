@@ -1,23 +1,51 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
-
-*{
-    margin: 0;
+* {
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-body{
-    background-color: #000;
-    color: #fff;
-    font-family: "Merriweather", serif;
-    font-style: italic;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+#container {
+    width: 33%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: greenyellow;
+    text-align: center;
+    margin-top: 10vh;
+    padding: 20px;
+    border-radius: 8px;
 }
 
-.paragraph-change{
-    text-transform: capitalize;
+h2 {
+    margin-bottom: 1.5rem;
+}
+
+input {
+    border: none;
+    outline: none;
+    padding: 8px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    width: 60%;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: teal;
+    color: white;
+}
+
+#change-due, #cash-in-drawer {
+    margin-bottom: 1.5rem;
+    font-size: 18px;
+}
+
+@media only screen and (max-width: 500px) {
+    #container {
+        width: 90%;
+        margin-top: 15vh;
+    }
 }
