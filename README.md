@@ -43,3 +43,6 @@ Su aplicación debe mostrar diferentes mensajes dependiendo del precio del artí
 10. Cuando el precio es ***19.5***, el valor en el elemento ***#cash*** es 20, ***cid*** es ***[["PENNY", 0,5], ["NICKEL", 0], ["DIME", 0], ["QUARTER", 0], ["ONE", 0], ["FIVE", 0], ["TEN", 0], ["TWENTY", 0], ["ONE HUNDRED", 0]]***, y se hace clic en el elemento ***#purchase-btn***, el valor en el elemento ***#change-due*** debe ser ***"Status: CLOSED PENNY: $0.5"***.
 
 Cumpla con las historias de usuario y supere todas las pruebas a continuación para completar este proyecto. Aporte su propio estilo personal. ¡Feliz codificación!
+
+## Proyecto Finalizado :)
+[![Captura-de-pantalla-51.png](https://i.postimg.cc/bYGfNrpw/Captura-de-pantalla-51.png)](https://postimg.cc/BtGVmqjr)
