@@ -8,29 +8,40 @@
 </head>
 <body>
 
-    <main id="container">
-        <h2>Cash Register Project 📠</h2>
-        <input autocomplete="off" type="text" id="cash">
-        <button id="purchase-btn">Purchase</button>
-        <p id="price"></p>
-        <p id="change"></p><br>
-        <div id="change-due"></div>
-        <div id="cash-in-drawer"></div>
-    </main>
+    <div class="container">
+        <main class="register-container">
+            <section class="header">
+                <svg class="calculator-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="16" height="20" x="4" y="2" rx="2"/><line x1="8" x2="16" y1="6" y2="6"/><line x1="16" x2="16" y1="14" y2="18"/><path d="M16 10h.01"/><path d="M12 10h.01"/><path d="M8 10h.01"/><path d="M12 14h.01"/><path d="M8 14h.01"/><path d="M12 18h.01"/><path d="M8 18h.01"/></svg>
+                <h2>Cash Register</h2>
+            </section>
 
-    <!-- <main class="container">
-        <div class="form-box">
-            <h2>Caja Registradora 💸📠</h2>
-            <form id="input-form">
-                <input type="text" id="cash" placeholder="" required>
-                <button type="submit" id="purchase-btn">Purchase</button>
-                <p id="price"></p>
-                <p id="change"></p><br>
-                <div id="change-due"></div>
-                <div id="cash-in-drawer"></div>
-            </form>
-        </div>
-    </main> -->
+            <section class="content">
+                <div class="input-wrapper">
+                    <span class="dollar-sign">$</span>
+                    <input type="text" id="cash" placeholder="Enter amount" autocomplete="off">
+                </div>
+
+                <button id="purchase-btn">
+                    <svg class="receipt-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 2v20l2-1 2 1 2-1 2 1 2-1 2 1 2-1 2 1V2l-2 1-2-1-2 1-2-1-2 1-2-1-2 1-2-1Z"/><path d="M16 8h-6"/><path d="M16 12h-6"/><path d="M16 16h-6"/></svg>
+                    Purchase
+                </button>
+
+                <div class="info-box">
+                    <p id="price">Total Price: $0.00</p>
+                </div>
+
+                <div class="info-box">
+                    <p id="change">Change Due: $0.00</p>
+                    <div id="change-due"></div>
+                </div>
+
+                <div class="drawer-section">
+                    <h3>Cash in Drawer</h3>
+                    <div id="cash-in-drawer" class="info-box"></div>
+                </div>
+            </section>
+        </main>
+    </div>
 
     <script src="script.js"></script>
 </body>
